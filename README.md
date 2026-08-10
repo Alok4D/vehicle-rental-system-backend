@@ -5,6 +5,23 @@ A robust backend application for a Vehicle Rental System built using Node.js, Ex
 ## Live URL
 **Live API Link:** [https://vehicle-rental-system-backend-dun.vercel.app](https://vehicle-rental-system-backend-dun.vercel.app)
 
+## How to Test the API
+
+To make it easy for testing, a Postman Collection is included in the repository.
+
+1. **Download Postman Collection:** You can find the Postman collection file in `src/postman/Vehicle_Rental_Collection.postman_collection.json`.
+2. **Import in Postman:** Open Postman -> Click **Import** -> Select the downloaded file.
+3. **Run Requests:** All 13 endpoints are configured with the required request body and headers. Just change the base URL to the live URL above to test.
+
+### Sample Test Credentials
+You can use these credentials to quickly test role-based authentication without creating a new user:
+
+**Admin User:**
+- Email: `admin@example.com`
+- Password: `securePassword123`
+
+*(Note: If the user doesn't exist, please run the Signup API first to create it, then use the Signin API to get the JWT token).*
+
 ## Technology Stack
 - **Framework:** Express.js (Node.js)
 - **Language:** TypeScript
