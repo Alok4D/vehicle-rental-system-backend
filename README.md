@@ -59,3 +59,8 @@ To run the server in development mode:
 npm run dev
 ```
 The server will start running at `http://localhost:5000`
+
+## API Endpoints & Testing
+To make testing easier, a Postman collection is included in the project repository.
+- **Path:** `src/postman/Vehicle_Rental_Collection.postman_collection.json`
+- Simply import this file into your Postman application to test all the available endpoints.
